@@ -1,9 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # NJU-SE2022-Lab04
 NJU Software Engineering Lab4: Equivalence Test
 =======
 # Software Engineering Project 4
 ### 等价判断 Equivalence Judgement
+=======
+# Software Engineering Project 4: 等价判断
+### Equivalence Judgement
+>>>>>>> Changed README.md
 
 实现了OJ程序的等价判断工具。
 
