@@ -1,5 +1,5 @@
-# Software Engineering Project 4
-### 等价判断 Equivalence Judgement
+# Software Engineering Project 4: 等价判断 
+### Equivalence Judgement
 
 实现了OJ程序的等价判断工具。
 
