@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Software Engineering Project 4: 等价判断 
 ### Equivalence Judgement
 
@@ -70,3 +71,4 @@ input
   | ----------------- | ----------------- |
   | input/dir/oj1.cpp | input/dir/oj2.cpp |
   | ...               | ...               |
+
