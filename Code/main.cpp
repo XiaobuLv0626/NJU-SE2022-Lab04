@@ -8,7 +8,7 @@ void InitFile(std::string path, std::vector<OJFile> &files){
     while((ptr = readdir(pdir)) != 0){
         if(strcmp(ptr->d_name, ".") != 0 && strcmp(ptr->d_name, "..") != 0){
             std::string path_dir = path + "/" + ptr->d_name;
-            std::cout << path_dir << "\n";
+            // std::cout << path_dir << "\n";
             OJFile newfolder(path_dir);
             files.push_back(newfolder);
         }
@@ -20,7 +20,7 @@ int main()
 {
     std::vector<OJFile> FileCheck;
     std::string path_in, path_out, path;
-    std::cout << "Please insert absolute path for dir_path /test.\nPath: ";
+    std::cout << "Please insert absolute path for /input's father path.\nPath: ";
     std::cin >> path;
     system(std::string("cd ").append(path).c_str());
     path_out = path + "/output";

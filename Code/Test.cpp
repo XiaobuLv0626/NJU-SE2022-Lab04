@@ -31,7 +31,7 @@ void Test::generateExample(std::string path) {
         exit(-1);
     }
     for (int i = 0; i < test->InputNumber(); i++) {
-        ofst << " ";
+        if ( i!= 0) ofst << " ";
         std::pair<int, std::pair<int, int>> example = test->getInput(i);
         switch (example.first) {
         case 0:
