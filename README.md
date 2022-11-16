@@ -1,5 +1,4 @@
-# Software Engineering Project 4: 等价判断
-
+# Software Engineering Project 4: 等价判断 
 ### Equivalence Judgement
 
 实现了OJ程序的等价判断工具。
@@ -25,6 +24,7 @@ Visual Studio Code（Linux开发） & Visual Studio 2022（Windows验证与远�
 ------
 
 ### 输入输出：
+
 
 #### **输入格式**：
 
